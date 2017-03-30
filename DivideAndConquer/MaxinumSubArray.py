@@ -1,5 +1,5 @@
 """
-最大非空子数组问题：分治法
+最大非空子数组问题：分治法,时间复杂度O(nlogn)
 @version: 1.0
 @author: zyw
 @file: MaxinumSubArray.py
