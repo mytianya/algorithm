@@ -12,11 +12,17 @@ def dpLIS(sequence):
     l=[1 for n in range(length)];
     i,j=0,0;
     maxlength=1;
+    index=0;
+    res=[[',' for i in range(length)] for i in range(length)];
     for i in range(length):
+        res[i][i]=sequence[i];
         for j in range(i):
             if sequence[j]<=sequence[i] and l[i]<l[j]+1:
                 l[i]=l[j]+1;
+                res[i][j]=sequence[j];
                 if(l[i]>maxlength):
                     maxlength=l[i];
+                    index=i;
+    print("longest increasing sequence",res[index]);
     return maxlength;
 print("longest inscreasing subsequence's length:",dpLIS(sequence));
