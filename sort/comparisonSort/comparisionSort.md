@@ -7,7 +7,7 @@
 		比较排序可以被抽象为一颗决策树。决策树是一颗完全二叉树，它可以表示在给定输入规模下，某一特定排序算法对所有元素的比较操作。 
 		比如说有(a1,a2,a3)需要排序，如下图所示:
 		
-<center>![](https://github.com/yunwuzhan/algorithm/blob/master/resources/decisiontree.gif?raw=true)</center>
+![](https://github.com/yunwuzhan/algorithm/blob/master/resources/decisiontree.gif?raw=true)
 
 #### 在最坏情况下，任一比较排序算法时间复杂度 ####
 
